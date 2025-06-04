@@ -1367,10 +1367,32 @@ p{
 	button.navbar-toggler.collapsed img.menu-bar{display: block;}
 	button.navbar-toggler img.close-manu {  display: block;}
 	.navbar-toggler-icon{width: 48px; height: 48px;}
-	.navbar-expand-md .navbar-nav .nav-link{font-size: 32px;}
-	.navbar-collapse.collapse.show{background: linear-gradient(0deg, #FAFDFF, #FAFDFF),
-linear-gradient(180deg, rgba(178, 217, 255, 0.5) -12.04%, rgba(193, 224, 255, 0.5) 27.74%, rgba(255, 255, 255, 0) 124.36%);
+	.navbar-expand-md .navbar-nav .nav-link{font-size: 32px; text-align: center;}
+	.navbar-collapse{background: #B2D9FF;
+background: linear-gradient(180deg,rgba(178, 217, 255, 1) 0%, rgba(193, 224, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);         height: calc(100vh - 68px);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        z-index: 9;
+        top: 68px;
+		        padding-top: 100px; padding-bottom: 30px;
+			margin: 0 -1rem;
+			min-height: 435px;
 }
+.navbar-collapse ul.navbar-nav.ml-auto {
+    margin: 0 !important;
+}
+.navbar-collapse ul.navbar-nav.ml-auto.rt-btn {
+    flex-direction: row;
+    gap: 30px;
+}
+.navbar-collapse ul.navbar-nav.ml-auto.rt-btn a.nav-link {
+    font-size: 16px;
+}
+nav.navbar.navbar-expand-md.navbar-dark.bg-dark
 .phone-pad{
 	margin-top:15px;
 	margin-bottom:15px;
