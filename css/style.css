@@ -1366,6 +1366,13 @@ p{
 }
 }
 @media (max-width: 767px){
+	.fully-complint h2{font-size: 32px;}
+	.fully-complint {
+    padding-top: 153px;
+}
+	.fully-complint::after{width: 80px;height: 80px; background: url(../images/star-bg-top.png); top:50px;        margin: 0 auto;
+        left: 0;
+        right: 0;}
 .mob-show-box
  {
 	    text-align: center;
@@ -1380,7 +1387,9 @@ p{
     padding: 12px 32px;
     border-radius: 8px;
 }
+section.container.how-work.sec-pad-t .col-md-4:last-child,
 	.feat-part .col-sm-4:last-child{margin-bottom: 0px;}
+	section.container.how-work.sec-pad-t .col-md-4,
 	.feat-part .col-sm-4 {
     margin-bottom: 15px;
 }
