@@ -31,3 +31,30 @@ $(function() {
 	siteDropdown();
 
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const target = document.querySelector('.mob-show-box');
+  if (!target) return;
+
+  // Calculate original position relative to page top
+  const originalTop = target.getBoundingClientRect().top + window.scrollY;
+
+  window.addEventListener('scroll', () => {
+    const rect = target.getBoundingClientRect();
+    const scrollY = window.scrollY;
+
+    // When the element's top reaches bottom of viewport or above, fix it at bottom
+    if (rect.top <= window.innerHeight && scrollY > originalTop) {
+      target.classList.add('fixed-bottom-visible');
+    }
+
+    // When scroll is above original position, remove fixed class
+    if (scrollY <= originalTop) {
+      target.classList.remove('fixed-bottom-visible');
+    }
+  });
+});
+
+

@@ -27,8 +27,14 @@
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="index.html"><img src='images/logo.svg' alt='Brand' /></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+		  <ul class="mob-show">
+<li class="nav-item signin">
+                <a class="nav-link" href="#">Dashboard</a>
+              </li>
+		  </ul>
+		  
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img class="menu-bar" src="images/menu-bar.png" alt="menu bar"> <img src="images/close.png" class="close-manu" alt="#"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarsExample05">
@@ -53,13 +59,15 @@
               
             </ul>
 
-            <ul class="navbar-nav ml-auto rt-btn">
+            <ul class="navbar-nav ml-auto rt-btn uesernav">
               <li class="nav-item signin">
                 <a class="nav-link" href="#">Dashboard</a>
               </li>
-			  <li class="nav-item signup">
-                <a class="nav-link" href="#">S.K</a>
-              </li>
+			  <li><a class=" user-link" href="#">
+					<icon><img src="images/Ava.png"><span class="mob-show"><p>Scott Kennedy</p> scott.ken28@gmail.com</span></icon>
+					<img class="mob-show" src="images/user-link.png">
+				</a></li>
+                
             </ul>
             
           </div>
@@ -364,7 +372,7 @@ We’re actively partnering with regulators, improving user experience, and deve
 		<div class='row foot-menu'>
 			<div class='col-xl-7 col-md-6'>
 				<div class='row'>
-					<div class='col-xl-3'>
+					<div class='col-xl-3 first-box'>
 						<h4>Navigation</h4>
 						<ul>
 							<li><a href=''>Home</a></li>
@@ -374,11 +382,11 @@ We’re actively partnering with regulators, improving user experience, and deve
 							<li><a href=''>Contact us</a></li>
 						</ul>
 					</div>
-					<div class='col-xl-6'>
+					<div class='col-xl-6 first-box'>
 						<h4>Popular pairs</h4>
 						
 						<div class='row'>
-							<div class='col-xl-6'>
+							<div class='col-xl-6 '>
 								<ul>
 									<li><a href=''>BTC to USD</a></li>
 									<li><a href=''>USDC to USD</a></li>
@@ -402,7 +410,7 @@ We’re actively partnering with regulators, improving user experience, and deve
 						
 						
 					</div>
-					<div class='col-xl-3'>
+					<div class='col-xl-3 last-box'>
 						<h4>Legal</h4>
 						<ul>
 							<li><a href=''>AML/KYC Polciy</a></li>
@@ -416,7 +424,8 @@ We’re actively partnering with regulators, improving user experience, and deve
 				
 				
 				<div class='social-ico'>
-					
+					<a href=''><img src='images/teegram.png' /></a>
+					<a href=''><img src='images/WhatsApp.png' /></a>
 				</div>
 				
 			</div>

@@ -27,8 +27,13 @@
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="index.html"><img src='images/logo.svg' alt='Brand' /></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+		  <ul class="mob-show">
+<li class="nav-item signin">
+                <a class="nav-link" href="#">Dashboard</a>
+              </li>
+		  </ul>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img class="menu-bar" src="images/menu-bar.png" alt="menu bar"> <img src="images/close.png" class="close-manu" alt="#"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarsExample05">
@@ -53,13 +58,15 @@
               
             </ul>
 
-            <ul class="navbar-nav ml-auto rt-btn">
+            <ul class="navbar-nav ml-auto rt-btn uesernav">
               <li class="nav-item signin">
                 <a class="nav-link" href="#">Dashboard</a>
               </li>
-			  <li class="nav-item signup">
-                <a class="nav-link" href="#">S.K</a>
-              </li>
+			  <li><a class=" user-link" href="#">
+					<icon><img src="images/Ava.png"><span class="mob-show"><p>Scott Kennedy</p> scott.ken28@gmail.com</span></icon>
+					<img class="mob-show" src="images/user-link.png">
+				</a></li>
+                
             </ul>
             
           </div>
@@ -71,23 +78,23 @@
 
     <!--hero part start here!-->
 	
-	<section class='hearo-wrap'>
+<section class='hearo-wrap'>
 		<div class='container hero-bx padding-top-bot'><!--exchange part!-->
 			<div class='row align-items-center'>
-				<div class='col-xl-7 col-md-5'>
+				<div class='col-xl-7'>
 					<div class='trust-badge'>
-						<span></span>
+						<img src='images/avatars.png' />
 						<span>Trusted by 300+ happy customers</span>
 					</div>
 					<h1 class='hero-title'>Exchange ⌁ Crypto Easily & Securely</h1>
 					<p>A clear interface, transparent process, and full compliance with the law. Use Kittrow for real-life needs — from sending money to loved ones to paying important bills.</p>
 				</div>
 				
-				<div class='col-xl-5 col-md-7'>
+				<div class='col-xl-5'>
 				
 				
 					<div class='form-part'> <!--=============crypto form start here!=====================-->
-						<div class='setting-ic'><a href=''>1</a></div>
+						<div class='setting-ic'><a href=''><img src='images/setting.png' /></a></div>
 						<div class='tab-part'>
 							<ul class="nav nav-tabs" id="myTab" role="tablist">
 								  <li class="nav-item">
@@ -101,7 +108,7 @@
 								<div class="tab-content" id="myTabContent">
 								  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 								  
-										<div class='crp-form'>
+								<div class='crp-form'>
 								<h3>Buy crypto</h3>
 								<div class='fom-wrap'>
 									<div class='fm-group'>
@@ -117,30 +124,29 @@
 												
 												  <div class="sel-c"><!--Custom select!-->
 													<div class="dropdown sik-dropdown" id="sik-select">
-													  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownButton">
+													  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownButton1">
 														Select
 													  </button>
-													  <ul class="dropdown-menu dropdown-menu-dark">
+													  <ul class="dropdown-menu dropdown-menu-dark buysend">
 														<li>
-														  <span class="dropdown-item" data-value="btc">
+														  <span class="dropdown-item" data-value="BTC" data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/btc.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/btc.svg" alt="btc" />
 															Bitcoin
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="eth">
-															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg" alt="eth" />
-															Ethereum
+														  <span class="dropdown-item" data-value="ETH"  data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg">
+															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg" alt="eth" />Ethereum
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="trx">
+														  <span class="dropdown-item" data-value="TRX"  data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/trx.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/trx.svg" alt="trx" />
 															Tron
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="usdt">
+														  <span class="dropdown-item" data-value="USDT" data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/usdt.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/usdt.svg" alt="usdt" />
 															Tether
 														  </span>
@@ -155,7 +161,9 @@
 									</div>
 									
 									
-									
+									<div class='exchange-btn'>
+										<a href=''><img src='images/exchange.png' /></a>
+									</div>
 									
 									<div class='fm-group'>
 										<div class='field-bg'>
@@ -170,30 +178,29 @@
 												
 												  <div class="sel-c"><!--Custom select!-->
 													<div class="dropdown sik-dropdown" id="sik-select">
-													  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownButton">
+													  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownButton2">
 														Select
 													  </button>
-													  <ul class="dropdown-menu dropdown-menu-dark">
+													  <ul class="dropdown-menu dropdown-menu-dark buyget">
 														<li>
-														  <span class="dropdown-item" data-value="btc">
+														  <span class="dropdown-item" data-value="BTC" data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/btc.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/btc.svg" alt="btc" />
 															Bitcoin
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="eth">
-															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg" alt="eth" />
-															Ethereum
+														  <span class="dropdown-item" data-value="ETH"  data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg">
+															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg" alt="eth" />Ethereum
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="trx">
+														  <span class="dropdown-item" data-value="TRX"  data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/trx.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/trx.svg" alt="trx" />
 															Tron
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="usdt">
+														  <span class="dropdown-item" data-value="USDT" data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/usdt.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/usdt.svg" alt="usdt" />
 															Tether
 														  </span>
@@ -237,30 +244,29 @@
 												
 												  <div class="sel-c"><!--Custom select!-->
 													<div class="dropdown sik-dropdown" id="sik-select">
-													  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownButton">
+													  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownButton3">
 														Select
 													  </button>
-													  <ul class="dropdown-menu dropdown-menu-dark">
+													  <ul class="dropdown-menu dropdown-menu-dark sellsend">
 														<li>
-														  <span class="dropdown-item" data-value="btc">
+														  <span class="dropdown-item" data-value="BTC" data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/btc.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/btc.svg" alt="btc" />
 															Bitcoin
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="eth">
-															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg" alt="eth" />
-															Ethereum
+														  <span class="dropdown-item" data-value="ETH"  data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg">
+															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg" alt="eth" />Ethereum
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="trx">
+														  <span class="dropdown-item" data-value="TRX"  data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/trx.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/trx.svg" alt="trx" />
 															Tron
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="usdt">
+														  <span class="dropdown-item" data-value="USDT" data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/usdt.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/usdt.svg" alt="usdt" />
 															Tether
 														  </span>
@@ -275,6 +281,9 @@
 									</div>
 									
 									
+									<div class='exchange-btn'>
+										<a href=''><img src='images/exchange.png' /></a>
+									</div>
 									
 									
 									<div class='fm-group'>
@@ -290,30 +299,29 @@
 												
 												  <div class="sel-c"><!--Custom select!-->
 													<div class="dropdown sik-dropdown" id="sik-select">
-													  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownButton">
+													  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownButton4">
 														Select
 													  </button>
-													  <ul class="dropdown-menu dropdown-menu-dark">
+													  <ul class="dropdown-menu dropdown-menu-dark sellget">
 														<li>
-														  <span class="dropdown-item" data-value="btc">
+														  <span class="dropdown-item" data-value="BTC" data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/btc.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/btc.svg" alt="btc" />
 															Bitcoin
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="eth">
-															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg" alt="eth" />
-															Ethereum
+														  <span class="dropdown-item" data-value="ETH"  data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg">
+															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/eth.svg" alt="eth" />Ethereum
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="trx">
+														  <span class="dropdown-item" data-value="TRX"  data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/trx.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/trx.svg" alt="trx" />
 															Tron
 														  </span>
 														</li>
 														<li>
-														  <span class="dropdown-item" data-value="usdt">
+														  <span class="dropdown-item" data-value="USDT" data-image="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/usdt.svg">
 															<img class="crypto-icon" src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@bea1a9722a8c63169dcc06e86182bf2c55a76bbc/svg/color/usdt.svg" alt="usdt" />
 															Tether
 														  </span>
@@ -345,20 +353,22 @@
 							
 								
 						</div>
-					</div><!--=============crypto form end here!=====================-->
+					</div><!--=============crypto form start here!=====================-->
 				</div>
 			</div>
 		</div><!--exchange part!-->
 		
 		<div class='container brand-bar'><!--=============brand logos!-->
 			<ul>
+				<li><img src='images/Visa.png' /></li>
 				<li><img src='images/paypal.png' /></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<li><img src='images/GooglePay.png' /></li>
+				<li><img src='images/ApplePay.png' /></li>
+				<li><img src='images/Mastercard.png' /></li>
+				<li><img src='images/Amex.png' /></li>
+				<li><img src='images/Discover.png' /></li>
+				<li><img src='images/Stripe.png' /></li>
+				<li><img src='images/Lemon-Squeezy.png' /></li>
 			</ul>
 		</div><!--=============brand logos!-->
 		
@@ -366,30 +376,37 @@
 			<div class='row'>
 				<div class='col-sm-4'>
 					<div class='feat-wrap'>
-						<div class='icon'></div>
-						<h3>Legally Registered in the EU</h3>
-						<p>Kittrow is a licensed VASP in Denmark —  one of the EU’s most trusted jurisdictions.  All transactions follow strict legal standards.</p>
+						<div class='icon'><img src='images/legally.png' /></div>
+						<h3> <div class='icon mob-show'><img src='images/legally.png' /></div>Legally Registered in the EU</h3>
+						<p>Kittrow is a licensed VASP in Denmark — one of the EU’s most trusted jurisdictions. All transactions follow strict legal standards.</p>
+					</div>
+				</div>
+				
+				<div class='col-sm-4'>
+					<div class='feat-wrap phone-pad'>
+						<div class='icon '><img src='images/fast.png' /></div>
+						<h3><div class='icon mob-show'><img src='images/fast.png' /></div>Fast & Instant Payouts</h3>
+						<p>Your funds are delivered in minutes. We partner with top payment networks to ensure maximum speed and reliability.</p>
 					</div>
 				</div>
 				
 				<div class='col-sm-4'>
 					<div class='feat-wrap'>
-						<div class='icon'></div>
-						<h3>Fast & Instant Payouts</h3>
-						<p>Kittrow is a licensed VASP in Denmark —  one of the EU’s most trusted jurisdictions.  All transactions follow strict legal standards.</p>
-					</div>
-				</div>
-				
-				<div class='col-sm-4'>
-					<div class='feat-wrap'>
-						<div class='icon'></div>
-						<h3>Tailored for Personal Use</h3>
-						<p>Kittrow is a licensed VASP in Denmark —  one of the EU’s most trusted jurisdictions. All transactions follow strict legal standards.</p>
+						<div class='icon '><img src='images/personal.png' /></div>
+						<h3> <div class='icon mob-show'><img src='images/personal.png' /></div> Tailored for Personal Use</h3>
+						<p>Perfect for rent, tuition, healthcare, or family transfers. Full documentation available upon request.</p>
 					</div>
 				</div>
 			</div>
 		</div><!--=============Feature Part!-->
-		
+		<div class="mob-show-box">
+			<div class="container">
+				<div class="btn-part">
+<a class="btn buy-btn" href="#">Buy Crypto now</a>
+				</div>
+				
+			</div>
+		</div>
 		
 	</section>
 	
@@ -401,28 +418,28 @@
 		<div class='row'>
 			<div class='col-md-4'>
 				<div class='how-wrap'>
-					<div class='icon'><img src='images/choose-currency.png' /></div>
-					<h3>1. Choose Currency</h3>
+					<div class='icon'><img src='images/currency.png' /></div>
+					<h3><div class='icon mob-show'><img src='images/currency.png' /></div>1. Choose Currency</h3>
 					<p>Select the cryptocurrency you want to sell and the one you want to receive</p>
 					<div class='stp-img'><img src='images/step1.png' /></div>
 				</div>
 			</div>
 			
 			<div class='col-md-4'>
-				<div class='how-wrap'>
-					<div class='icon'><img src='images/choose-currency.png' /></div>
-					<h3>2. Make a Deposit</h3>
-					<p>Select the cryptocurrency you want to sell and the one you want to receive</p>
-					<div class='stp-img'><img src='images/step1.png' /></div>
+				<div class='how-wrap phone-pad'>
+					<div class='icon'><img src='images/depsit.png' /></div>
+					<h3> <div class='icon mob-show'><img src='images/depsit.png' /></div> 2. Make a Deposit</h3>
+					<p>Send the required amount to the provided wallet address. We start processing instantly</p>
+					<div class='stp-img'><img src='images/step2.png' /></div>
 				</div>
 			</div>
 			
 			<div class='col-md-4'>
 				<div class='how-wrap'>
-					<div class='icon'><img src='images/choose-currency.png' /></div>
-					<h3>3. Receive Your Funds</h3>
-					<p>Select the cryptocurrency you want to sell and the one you want to receive</p>
-					<div class='stp-img'><img src='images/step1.png' /></div>
+					<div class='icon'><img src='images/funds.png' /></div>
+					<h3><div class='icon mob-show'><img src='images/funds.png' /></div> 3. Receive Your Funds</h3>
+					<p>We’ll send the funds to your wallet right after confirming the transaction</p>
+					<div class='stp-img'><img src='images/step3.png' /></div>
 				</div>
 			</div>
 		</div>
@@ -439,33 +456,33 @@
 	<section class='container kit-numb sec-pad-t'>
 		<h2 class='sec-title'>Kittrow in numbers</h2>
 		<div class='row'>
-			<div class='col-md-3'>
+			<div class='col-md-3 col-6'>
 				<div class='kit-wrap'>
-					<div class='icon'><img src='images/m-trans.png' /></div>
+					<div class='icon'><img src='images/calendar.png' /></div>
 					<p>Transfers per month</p>
 					<h3>1200+</h3>
 				</div>
 			</div>
 			
-			<div class='col-md-3'>
+			<div class='col-md-3 col-6'>
 				<div class='kit-wrap'>
-					<div class='icon'><img src='images/m-trans.png' /></div>
+					<div class='icon'><img src='images/earth.png' /></div>
 					<p>Countries served</p>
 					<h3>35+</h3>
 				</div>
 			</div>
 			
-			<div class='col-md-3'>
-				<div class='kit-wrap'>
-					<div class='icon'><img src='images/m-trans.png' /></div>
+			<div class='col-md-3 col-6'>
+				<div class='kit-wrap phone-mg-top'>
+					<div class='icon'><img src='images/personal1.png' /></div>
 					<p>Monthly active user </p>
 					<h3>5000+</h3>
 				</div>
 			</div>
 			
-			<div class='col-md-3'>
-				<div class='kit-wrap'>
-					<div class='icon'><img src='images/m-trans.png' /></div>
+			<div class='col-md-3 col-6'>
+				<div class='kit-wrap phone-mg-top'>
+					<div class='icon'><img src='images/support.png' /></div>
 					<p>Customer support</p>
 					<h3>24/7</h3>
 				</div>
@@ -602,7 +619,7 @@
 		<div class='row foot-menu'>
 			<div class='col-xl-7 col-md-6'>
 				<div class='row'>
-					<div class='col-xl-3'>
+					<div class='col-xl-3 first-box'>
 						<h4>Navigation</h4>
 						<ul>
 							<li><a href=''>Home</a></li>
@@ -612,7 +629,7 @@
 							<li><a href=''>Contact us</a></li>
 						</ul>
 					</div>
-					<div class='col-xl-6'>
+					<div class='col-xl-6 first-box'>
 						<h4>Popular pairs</h4>
 						
 						<div class='row'>
@@ -640,7 +657,7 @@
 						
 						
 					</div>
-					<div class='col-xl-3'>
+					<div class='col-xl-3 last-box'>
 						<h4>Legal</h4>
 						<ul>
 							<li><a href=''>AML/KYC Polciy</a></li>
